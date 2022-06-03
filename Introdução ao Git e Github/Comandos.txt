@@ -1,15 +1,17 @@
-Comandos Basicos Git Bash:	
+##Comandos Basicos Git Bash:	
 CD
 DIR
 MKDIR
 RM
 RMDIR
 
-Comandos Basicos GIT:
+## Comandos Basicos GIT:
 Git Init
 Git Status
 Git Commit
+Git Commit -m
 Git Add
 Git Push
+Git Push Origin Main
 Git Pull
 Git Clone
