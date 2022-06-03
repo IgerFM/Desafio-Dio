@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="igerf"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-04 03:00:44 "/>
+        <attribute name="created" value="aWdlcmY7SUdFUjsyMDIyLTA1LTA0OyIwMjowMzo1NCAiOzIwMDQ="/>
+        <attribute name="edited" value="aWdlcmY7SUdFUjsyMDIyLTA1LTA0OyIwMzowMDo0NCAiOzE7MjEwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, multiplica&#231;&#227;o" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="limite" expression="9"/>
+            <assign variable="multiplica&#231;&#227;o" expression="1"/>
+            <output expression="&quot;Tabuada do 9&quot;" newline="True"/>
+            <output expression="numero &amp; &quot; x &quot; &amp; multiplica&#231;&#227;o &amp; &quot; = &quot; &amp; numero" newline="True"/>
+            <while expression="multiplica&#231;&#227;o&lt;=limite">
+                <assign variable="multiplica&#231;&#227;o" expression="multiplica&#231;&#227;o+1"/>
+                <output expression="&quot;9 x &quot; &amp; multiplica&#231;&#227;o &amp; &quot;=&quot; &amp; numero+9" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
